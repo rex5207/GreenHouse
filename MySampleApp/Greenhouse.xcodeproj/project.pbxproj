@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3235294F1ED626120022DAC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3235294E1ED626120022DAC0 /* Images.xcassets */; };
+		323E0BE71ED6BE3600D2B784 /* PlantTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E0BE51ED6BE3600D2B784 /* PlantTableCell.m */; };
+		323E0BE81ED6BE3600D2B784 /* PlantTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323E0BE61ED6BE3600D2B784 /* PlantTableCell.xib */; };
+		323E0BEC1ED716A500D2B784 /* PlantDetial.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E0BEB1ED716A500D2B784 /* PlantDetial.m */; };
+		323E0BEF1ED7198200D2B784 /* ImageTablePushTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E0BEE1ED7198200D2B784 /* ImageTablePushTransitionViewController.m */; };
+		323E0BF21ED71B1700D2B784 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E0BF11ED71B1700D2B784 /* NavigationController.m */; };
+		323E32111ED6A57500D1FAC0 /* PlantTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323E32101ED6A57500D1FAC0 /* PlantTableController.m */; };
+		327E21A21ED754FA00079845 /* floatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E219E1ED754FA00079845 /* floatTableViewCell.m */; };
+		327E21A31ED754FA00079845 /* floatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327E219F1ED754FA00079845 /* floatTableViewCell.xib */; };
+		327E21A41ED754FA00079845 /* VCFloatingActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 327E21A11ED754FA00079845 /* VCFloatingActionButton.m */; };
+		32CFD0B31ED5ED5300402EB1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CFD0B21ED5ED5300402EB1 /* Launch Screen.storyboard */; };
+		9E1091C6EEAAA3A15136259F /* Pods_Greenhouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0226ADC9E65A0F60F0D93F35 /* Pods_Greenhouse.framework */; };
+		E7A30F040FE4F0F200000000 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E294CC4AFCE00000000 /* AWSMobileHubHelper.framework */; };
+		E7A30F042285550A00000000 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E297C60884500000000 /* libsqlite3.tbd */; };
+		E7A30F042ADD8FB100000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E297B1EFA6000000000 /* Foundation.framework */; };
+		E7A30F042C013EB700000000 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29799F033A00000000 /* SafariServices.framework */; };
+		E7A30F04304E6BE600000000 /* GoogleIdentityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E294634B20600000000 /* GoogleIdentityProfile.m */; };
+		E7A30F043594443E00000000 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2970CB45D600000000 /* Security.framework */; };
+		E7A30F043C563D3200000000 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2954B8770000000000 /* MediaPlayer.framework */; };
+		E7A30F044AC0A27700000000 /* AWSGoogleSignInResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E296CAC293C00000000 /* AWSGoogleSignInResources.bundle */; };
+		E7A30F044D2B7F9200000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29C57992D600000000 /* UIKit.framework */; };
+		E7A30F0461ADC4EB00000000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E2960722A0000000000 /* main.m */; };
+		E7A30F046CAC3CA400000000 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E297BADF36900000000 /* GoogleAppUtilities.framework */; };
+		E7A30F046F7C8D1700000000 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2928493BB100000000 /* GoogleNetworkingUtilities.framework */; };
+		E7A30F04842F118500000000 /* AWSMobileClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29F34BCFF300000000 /* AWSMobileClient.m */; };
+		E7A30F048EC64A1500000000 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29F461540800000000 /* AVKit.framework */; };
+		E7A30F048FD1682300000000 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29223D2F2E00000000 /* SignIn.storyboard */; };
+		E7A30F049554BD2800000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E299629922300000000 /* AppDelegate.m */; };
+		E7A30F0495F6B3D400000000 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2936A1574F00000000 /* libz.tbd */; };
+		E7A30F04BB6245D600000000 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2915339C5000000000 /* AddressBook.framework */; };
+		E7A30F04BC49C98100000000 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29B50A4A5400000000 /* CFNetwork.framework */; };
+		E7A30F04BDF115CF00000000 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E295C62535C00000000 /* SystemConfiguration.framework */; };
+		E7A30F04C0CA9B9A00000000 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29E170D88600000000 /* AVFoundation.framework */; };
+		E7A30F04C46A6AC300000000 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29BBF2414D00000000 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E7A30F04C46A6AC300000001 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29BBF2414D00000000 /* AWSCore.framework */; };
+		E7A30F04CA8DE9D200000000 /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E291BBA9E9900000000 /* GoogleAuthUtilities.framework */; };
+		E7A30F04CC5BCAEF00000000 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29E04776E100000000 /* GoogleSignIn.bundle */; };
+		E7A30F04D02F758D00000000 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29E05F680900000000 /* GoogleUtilities.framework */; };
+		E7A30F04D1983BD000000000 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E296FE50D3900000000 /* GoogleSymbolUtilities.framework */; };
+		E7A30F04DE72876A00000000 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29F76579C700000000 /* GoogleSignIn.framework */; };
+		E7A30F04E32EFCB300000000 /* AWSGoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2926F21FC200000000 /* AWSGoogleSignIn.framework */; };
+		E7A30F04F2723E4800000000 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29767FCE3200000000 /* SignInViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF5FAC90000000000000000 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E7A30F04C46A6AC300000000 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0226ADC9E65A0F60F0D93F35 /* Pods_Greenhouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greenhouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C8B2FCAA21CD7EF4646163 /* Pods-Greenhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greenhouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Greenhouse/Pods-Greenhouse.release.xcconfig"; sourceTree = "<group>"; };
+		1DD70E2915339C5000000000 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		1DD70E291BBA9E9900000000 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAuthUtilities.framework; path = MySampleApp/Sdk/Google/GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		1DD70E29223D2F2E00000000 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = SignIn.storyboard; path = MySampleApp/App/SignIn/SignIn.storyboard; sourceTree = SOURCE_ROOT; };
+		1DD70E2926F21FC200000000 /* AWSGoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSGoogleSignIn.framework; path = MySampleApp/AmazonAws/AWSGoogleSignIn.framework; sourceTree = "<group>"; };
+		1DD70E2928493BB100000000 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = MySampleApp/Sdk/Google/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		1DD70E2936A1574F00000000 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1DD70E2945A1D80000000000 /* GoogleIdentityProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GoogleIdentityProfile.h; path = MySampleApp/App/SignIn/GoogleIdentityProfile.h; sourceTree = SOURCE_ROOT; };
+		1DD70E294634B20600000000 /* GoogleIdentityProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GoogleIdentityProfile.m; path = MySampleApp/App/SignIn/GoogleIdentityProfile.m; sourceTree = SOURCE_ROOT; };
+		1DD70E294CC4AFCE00000000 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = MySampleApp/AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		1DD70E2954B8770000000000 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1DD70E295C62535C00000000 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DD70E2960722A0000000000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MySampleApp/App/SupportingFiles/main.m; sourceTree = SOURCE_ROOT; };
+		1DD70E296CAC293C00000000 /* AWSGoogleSignInResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AWSGoogleSignInResources.bundle; path = MySampleApp/AmazonAws/AWSGoogleSignInResources.bundle; sourceTree = "<group>"; };
+		1DD70E296FE50D3900000000 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = MySampleApp/Sdk/Google/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		1DD70E2970CB45D600000000 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1DD70E2975ECF42C00000000 /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = MySampleApp/App/SignIn/SignInViewController.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29767FCE3200000000 /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = MySampleApp/App/SignIn/SignInViewController.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29799F033A00000000 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		1DD70E297B1EFA6000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DD70E297BADF36900000000 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = MySampleApp/Sdk/Google/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		1DD70E297C60884500000000 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1DD70E299596B81D00000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MySampleApp/App/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1DD70E299629922300000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MySampleApp/App/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29A0EDEC7400000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MySampleApp/App/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		1DD70E29B50A4A5400000000 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1DD70E29B77D6C2200000000 /* Greenhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Greenhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E29BBF2414D00000000 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = MySampleApp/Sdk/Aws/AWSCore.framework; sourceTree = "<group>"; };
+		1DD70E29C57992D600000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DD70E29D85849D900000000 /* MySampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MySampleApp.entitlements; path = MySampleApp/MySampleApp.entitlements; sourceTree = SOURCE_ROOT; };
+		1DD70E29E04776E100000000 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = MySampleApp/Sdk/Google/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		1DD70E29E05F680900000000 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = MySampleApp/Sdk/Google/GoogleUtilities.framework; sourceTree = "<group>"; };
+		1DD70E29E170D88600000000 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1DD70E29F2B8F5ED00000000 /* AWSMobileClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AWSMobileClient.h; path = MySampleApp/AmazonAws/AWSMobileClient.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29F34BCFF300000000 /* AWSMobileClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AWSMobileClient.m; path = MySampleApp/AmazonAws/AWSMobileClient.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29F461540800000000 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		1DD70E29F76579C700000000 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = MySampleApp/Sdk/Google/GoogleSignIn.framework; sourceTree = "<group>"; };
+		3125885F2B278EC5A94DA038 /* Pods-Greenhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greenhouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greenhouse/Pods-Greenhouse.debug.xcconfig"; sourceTree = "<group>"; };
+		3235294E1ED626120022DAC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MySampleApp/App/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		323E0BE41ED6BE3600D2B784 /* PlantTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlantTableCell.h; path = MySampleApp/App/PlantTableCell.h; sourceTree = SOURCE_ROOT; };
+		323E0BE51ED6BE3600D2B784 /* PlantTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlantTableCell.m; path = MySampleApp/App/PlantTableCell.m; sourceTree = SOURCE_ROOT; };
+		323E0BE61ED6BE3600D2B784 /* PlantTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlantTableCell.xib; path = MySampleApp/App/PlantTableCell.xib; sourceTree = SOURCE_ROOT; };
+		323E0BEA1ED716A500D2B784 /* PlantDetial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlantDetial.h; path = MySampleApp/App/PlantDetial.h; sourceTree = SOURCE_ROOT; };
+		323E0BEB1ED716A500D2B784 /* PlantDetial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlantDetial.m; path = MySampleApp/App/PlantDetial.m; sourceTree = SOURCE_ROOT; };
+		323E0BED1ED7198200D2B784 /* ImageTablePushTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageTablePushTransitionViewController.h; path = MySampleApp/App/ImageTablePushTransitionViewController.h; sourceTree = SOURCE_ROOT; };
+		323E0BEE1ED7198200D2B784 /* ImageTablePushTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageTablePushTransitionViewController.m; path = MySampleApp/App/ImageTablePushTransitionViewController.m; sourceTree = SOURCE_ROOT; };
+		323E0BF01ED71B1700D2B784 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationController.h; path = MySampleApp/App/NavigationController.h; sourceTree = SOURCE_ROOT; };
+		323E0BF11ED71B1700D2B784 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationController.m; path = MySampleApp/App/NavigationController.m; sourceTree = SOURCE_ROOT; };
+		323E320F1ED6A57500D1FAC0 /* PlantTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlantTableController.h; path = MySampleApp/App/PlantTableController.h; sourceTree = SOURCE_ROOT; };
+		323E32101ED6A57500D1FAC0 /* PlantTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlantTableController.m; path = MySampleApp/App/PlantTableController.m; sourceTree = SOURCE_ROOT; };
+		327E219D1ED754FA00079845 /* floatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = floatTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		327E219E1ED754FA00079845 /* floatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = floatTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		327E219F1ED754FA00079845 /* floatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = floatTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		327E21A01ED754FA00079845 /* VCFloatingActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFloatingActionButton.h; sourceTree = SOURCE_ROOT; };
+		327E21A11ED754FA00079845 /* VCFloatingActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFloatingActionButton.m; sourceTree = SOURCE_ROOT; };
+		32CFD0B21ED5ED5300402EB1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "MySampleApp/App/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F426D880000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7A30F04D1983BD000000000 /* GoogleSymbolUtilities.framework in Frameworks */,
+				E7A30F04E32EFCB300000000 /* AWSGoogleSignIn.framework in Frameworks */,
+				E7A30F04CA8DE9D200000000 /* GoogleAuthUtilities.framework in Frameworks */,
+				E7A30F046CAC3CA400000000 /* GoogleAppUtilities.framework in Frameworks */,
+				E7A30F04C46A6AC300000001 /* AWSCore.framework in Frameworks */,
+				E7A30F04D02F758D00000000 /* GoogleUtilities.framework in Frameworks */,
+				E7A30F040FE4F0F200000000 /* AWSMobileHubHelper.framework in Frameworks */,
+				E7A30F04DE72876A00000000 /* GoogleSignIn.framework in Frameworks */,
+				E7A30F046F7C8D1700000000 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				E7A30F044D2B7F9200000000 /* UIKit.framework in Frameworks */,
+				E7A30F04BDF115CF00000000 /* SystemConfiguration.framework in Frameworks */,
+				E7A30F043594443E00000000 /* Security.framework in Frameworks */,
+				E7A30F04BC49C98100000000 /* CFNetwork.framework in Frameworks */,
+				E7A30F0495F6B3D400000000 /* libz.tbd in Frameworks */,
+				E7A30F042285550A00000000 /* libsqlite3.tbd in Frameworks */,
+				E7A30F042ADD8FB100000000 /* Foundation.framework in Frameworks */,
+				E7A30F043C563D3200000000 /* MediaPlayer.framework in Frameworks */,
+				E7A30F04C0CA9B9A00000000 /* AVFoundation.framework in Frameworks */,
+				E7A30F048EC64A1500000000 /* AVKit.framework in Frameworks */,
+				E7A30F042C013EB700000000 /* SafariServices.framework in Frameworks */,
+				E7A30F04BB6245D600000000 /* AddressBook.framework in Frameworks */,
+				9E1091C6EEAAA3A15136259F /* Pods_Greenhouse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323E0BE91ED7167100D2B784 /* PlantDetail */ = {
+			isa = PBXGroup;
+			children = (
+				323E0BEA1ED716A500D2B784 /* PlantDetial.h */,
+				323E0BEB1ED716A500D2B784 /* PlantDetial.m */,
+			);
+			name = PlantDetail;
+			sourceTree = "<group>";
+		};
+		323E320D1ED6A46700D1FAC0 /* PlantTable */ = {
+			isa = PBXGroup;
+			children = (
+				323E0BED1ED7198200D2B784 /* ImageTablePushTransitionViewController.h */,
+				323E0BEE1ED7198200D2B784 /* ImageTablePushTransitionViewController.m */,
+				323E320F1ED6A57500D1FAC0 /* PlantTableController.h */,
+				323E32101ED6A57500D1FAC0 /* PlantTableController.m */,
+				323E0BE41ED6BE3600D2B784 /* PlantTableCell.h */,
+				323E0BE51ED6BE3600D2B784 /* PlantTableCell.m */,
+				323E0BE61ED6BE3600D2B784 /* PlantTableCell.xib */,
+			);
+			name = PlantTable;
+			sourceTree = "<group>";
+		};
+		327E21941ED754C800079845 /* FloatButton */ = {
+			isa = PBXGroup;
+			children = (
+				327E219D1ED754FA00079845 /* floatTableViewCell.h */,
+				327E219E1ED754FA00079845 /* floatTableViewCell.m */,
+				327E219F1ED754FA00079845 /* floatTableViewCell.xib */,
+				327E21A01ED754FA00079845 /* VCFloatingActionButton.h */,
+				327E21A11ED754FA00079845 /* VCFloatingActionButton.m */,
+			);
+			name = FloatButton;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		3D25D83A160B37E8F62CCD11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3125885F2B278EC5A94DA038 /* Pods-Greenhouse.debug.xcconfig */,
+				18C8B2FCAA21CD7EF4646163 /* Pods-Greenhouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B401C9797B923B0D00000000 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				323E0BE91ED7167100D2B784 /* PlantDetail */,
+				323E320D1ED6A46700D1FAC0 /* PlantTable */,
+				3235294E1ED626120022DAC0 /* Images.xcassets */,
+				1DD70E299596B81D00000000 /* AppDelegate.h */,
+				1DD70E299629922300000000 /* AppDelegate.m */,
+				323E0BF01ED71B1700D2B784 /* NavigationController.h */,
+				323E0BF11ED71B1700D2B784 /* NavigationController.m */,
+				32CFD0B21ED5ED5300402EB1 /* Launch Screen.storyboard */,
+				B401C979A2A2F62900000000 /* SignIn */,
+				B401C9799D568E1100000000 /* SupportingFiles */,
+			);
+			name = App;
+			path = mysampleapp/app;
+			sourceTree = "<group>";
+		};
+		B401C9797C796EFC00000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29E170D88600000000 /* AVFoundation.framework */,
+				1DD70E29F461540800000000 /* AVKit.framework */,
+				1DD70E29BBF2414D00000000 /* AWSCore.framework */,
+				1DD70E2926F21FC200000000 /* AWSGoogleSignIn.framework */,
+				1DD70E296CAC293C00000000 /* AWSGoogleSignInResources.bundle */,
+				1DD70E294CC4AFCE00000000 /* AWSMobileHubHelper.framework */,
+				1DD70E2915339C5000000000 /* AddressBook.framework */,
+				1DD70E29B50A4A5400000000 /* CFNetwork.framework */,
+				1DD70E297B1EFA6000000000 /* Foundation.framework */,
+				1DD70E297BADF36900000000 /* GoogleAppUtilities.framework */,
+				1DD70E291BBA9E9900000000 /* GoogleAuthUtilities.framework */,
+				1DD70E2928493BB100000000 /* GoogleNetworkingUtilities.framework */,
+				1DD70E29E04776E100000000 /* GoogleSignIn.bundle */,
+				1DD70E29F76579C700000000 /* GoogleSignIn.framework */,
+				1DD70E296FE50D3900000000 /* GoogleSymbolUtilities.framework */,
+				1DD70E29E05F680900000000 /* GoogleUtilities.framework */,
+				1DD70E2954B8770000000000 /* MediaPlayer.framework */,
+				1DD70E29799F033A00000000 /* SafariServices.framework */,
+				1DD70E2970CB45D600000000 /* Security.framework */,
+				1DD70E295C62535C00000000 /* SystemConfiguration.framework */,
+				1DD70E29C57992D600000000 /* UIKit.framework */,
+				1DD70E297C60884500000000 /* libsqlite3.tbd */,
+				1DD70E2936A1574F00000000 /* libz.tbd */,
+				0226ADC9E65A0F60F0D93F35 /* Pods_Greenhouse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B401C9797C92418F00000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29B77D6C2200000000 /* Greenhouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B401C9798B4C110900000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B401C9798CDD61AD00000000 /* MySampleApp */,
+				B401C9797C92418F00000000 /* Products */,
+				B401C9797C796EFC00000000 /* Frameworks */,
+				3D25D83A160B37E8F62CCD11 /* Pods */,
+			);
+			name = mainGroup;
+			sourceTree = "<group>";
+		};
+		B401C9798CDD61AD00000000 /* MySampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				B401C979A15319DD00000000 /* AmazonAws */,
+				B401C9797B923B0D00000000 /* App */,
+				1DD70E29D85849D900000000 /* MySampleApp.entitlements */,
+			);
+			name = MySampleApp;
+			path = mysampleapp;
+			sourceTree = "<group>";
+		};
+		B401C9799D568E1100000000 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				327E21941ED754C800079845 /* FloatButton */,
+				1DD70E29A0EDEC7400000000 /* Info.plist */,
+				1DD70E2960722A0000000000 /* main.m */,
+			);
+			name = SupportingFiles;
+			path = mysampleapp/app/supportingfiles;
+			sourceTree = "<group>";
+		};
+		B401C979A15319DD00000000 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29F2B8F5ED00000000 /* AWSMobileClient.h */,
+				1DD70E29F34BCFF300000000 /* AWSMobileClient.m */,
+			);
+			name = AmazonAws;
+			path = mysampleapp/amazonaws;
+			sourceTree = "<group>";
+		};
+		B401C979A2A2F62900000000 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E2945A1D80000000000 /* GoogleIdentityProfile.h */,
+				1DD70E294634B20600000000 /* GoogleIdentityProfile.m */,
+				1DD70E29223D2F2E00000000 /* SignIn.storyboard */,
+				1DD70E2975ECF42C00000000 /* SignInViewController.h */,
+				1DD70E29767FCE3200000000 /* SignInViewController.m */,
+			);
+			name = SignIn;
+			path = mysampleapp/app/signin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E66DC04E0000000000000000 /* Greenhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218C37090000000000000001 /* Build configuration list for PBXNativeTarget "Greenhouse" */;
+			buildPhases = (
+				64F67A41693C261DD035BAF7 /* [CP] Check Pods Manifest.lock */,
+				E1F174220000000000000001 /* ShellScript */,
+				1870857F0000000000000000 /* Sources */,
+				4F426D880000000000000000 /* Frameworks */,
+				8A032D2C0000000000000000 /* Resources */,
+				FAF5FAC90000000000000000 /* Embed Frameworks */,
+				E1F174220000000000000000 /* ShellScript */,
+				2F2972A5A94253F1A53AD0A8 /* [CP] Embed Pods Frameworks */,
+				7994623ABF1EC8FECFFB1249 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greenhouse;
+			productName = MySampleApp;
+			productReference = 1DD70E29B77D6C2200000000 /* Greenhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C847930000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					E66DC04E0000000000000000 = {
+						DevelopmentTeam = JSEMBN7UT7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 218C37090000000000000000 /* Build configuration list for PBXProject "Greenhouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B401C9798B4C110900000000 /* mainGroup */;
+			productRefGroup = B401C9797C92418F00000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66DC04E0000000000000000 /* Greenhouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A032D2C0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323E0BE81ED6BE3600D2B784 /* PlantTableCell.xib in Resources */,
+				32CFD0B31ED5ED5300402EB1 /* Launch Screen.storyboard in Resources */,
+				3235294F1ED626120022DAC0 /* Images.xcassets in Resources */,
+				E7A30F048FD1682300000000 /* SignIn.storyboard in Resources */,
+				E7A30F044AC0A27700000000 /* AWSGoogleSignInResources.bundle in Resources */,
+				E7A30F04CC5BCAEF00000000 /* GoogleSignIn.bundle in Resources */,
+				327E21A31ED754FA00079845 /* floatTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2972A5A94253F1A53AD0A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greenhouse/Pods-Greenhouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F67A41693C261DD035BAF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7994623ABF1EC8FECFFB1249 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greenhouse/Pods-Greenhouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F174220000000000000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"";
+		};
+		E1F174220000000000000001 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=${SRCROOT}/MySampleApp/Sdk/CheckXcodeVersion.sh\nif [ -e $FILE ]; then\n    $FILE\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1870857F0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323E32111ED6A57500D1FAC0 /* PlantTableController.m in Sources */,
+				E7A30F049554BD2800000000 /* AppDelegate.m in Sources */,
+				323E0BEC1ED716A500D2B784 /* PlantDetial.m in Sources */,
+				323E0BE71ED6BE3600D2B784 /* PlantTableCell.m in Sources */,
+				323E0BEF1ED7198200D2B784 /* ImageTablePushTransitionViewController.m in Sources */,
+				E7A30F04304E6BE600000000 /* GoogleIdentityProfile.m in Sources */,
+				327E21A41ED754FA00079845 /* VCFloatingActionButton.m in Sources */,
+				E7A30F04F2723E4800000000 /* SignInViewController.m in Sources */,
+				323E0BF21ED71B1700D2B784 /* NavigationController.m in Sources */,
+				327E21A21ED754FA00079845 /* floatTableViewCell.m in Sources */,
+				E7A30F04842F118500000000 /* AWSMobileClient.m in Sources */,
+				E7A30F0461ADC4EB00000000 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49524373386D956C00000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Google/GoogleSignIn.framework/GoogleSignIn",
+					"-force_load",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Google/GoogleUtilities.framework/GoogleUtilities",
+					"$(OTHER_LDFLAGS)",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49524373386D956C00000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C8B2FCAA21CD7EF4646163 /* Pods-Greenhouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iphone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JSEMBN7UT7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/**",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Aws",
+					"$(PROJECT_DIR)/MySampleApp/AmazonAws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.nthu.aws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4952437346F3E10800000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Google/GoogleSignIn.framework/GoogleSignIn",
+					"-force_load",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Google/GoogleUtilities.framework/GoogleUtilities",
+					"$(OTHER_LDFLAGS)",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4952437346F3E10800000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3125885F2B278EC5A94DA038 /* Pods-Greenhouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MySampleApp/MySampleApp.entitlements;
+				CODE_SIGN_IDENTITY = "iphone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JSEMBN7UT7;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/**",
+					"$(PROJECT_DIR)/MySampleApp/Sdk/Aws",
+					"$(PROJECT_DIR)/MySampleApp/AmazonAws",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MySampleApp/App/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.nthu.aws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218C37090000000000000000 /* Build configuration list for PBXProject "Greenhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437346F3E10800000000 /* Debug */,
+				49524373386D956C00000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218C37090000000000000001 /* Build configuration list for PBXNativeTarget "Greenhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437346F3E10800000001 /* Debug */,
+				49524373386D956C00000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C847930000000000000000 /* Project object */;
+}

@@ -1,0 +1,21 @@
+PODS:
+  - LGPlusButtonsView (1.1.1)
+  - Onboard (2.3.0)
+  - RMPZoomTransitionAnimator (1.0.2)
+  - SCLAlertView-Objective-C (1.0.4)
+
+DEPENDENCIES:
+  - LGPlusButtonsView (~> 1.1.0)
+  - Onboard
+  - RMPZoomTransitionAnimator
+  - SCLAlertView-Objective-C
+
+SPEC CHECKSUMS:
+  LGPlusButtonsView: 57878cd3d461d0ee2042f5b7b25d1c017e22a084
+  Onboard: 7f41c4a92e66d53844438434b1e7f892d363e55b
+  RMPZoomTransitionAnimator: fa1a0726e8e227069d9d63d30ef403aa12323960
+  SCLAlertView-Objective-C: dd8a12b4068b8bae1b25c1748d7413b5abcad05b
+
+PODFILE CHECKSUM: 73fa476067dc47be3b5694562e110c0b08d7b8f3
+
+COCOAPODS: 1.2.1

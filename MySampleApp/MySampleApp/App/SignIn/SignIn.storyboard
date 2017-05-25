@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="JsU-58-bGp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="R5N-Wm-LRl">
+            <objects>
+                <navigationController storyboardIdentifier="NavController" id="JsU-58-bGp" customClass="NavigationController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GZu-ov-g1h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xc1-Jg-Y5t" kind="relationship" relationship="rootViewController" id="C6n-14-Abw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgc-ZU-p68" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="526" y="455"/>
+        </scene>
+        <!--Sign-In View Controller-->
+        <scene sceneID="7j4-1z-nW1">
+            <objects>
+                <viewController storyboardIdentifier="SignIn" title="Sign-In View Controller" id="xc1-Jg-Y5t" customClass="SignInViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iDn-EW-gbn"/>
+                        <viewControllerLayoutGuide type="bottom" id="oro-gg-Uv8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n6k-Ut-fuw" customClass="onBo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S1T-RK-06i">
+                                <rect key="frame" x="16" y="64" width="343" height="0.0"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner2" translatesAutoresizingMaskIntoConstraints="NO" id="AW1-vR-394">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenhouse" translatesAutoresizingMaskIntoConstraints="NO" id="1tG-Pl-iHa">
+                                <rect key="frame" x="24" y="132" width="328" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w24-wN-pgT">
+                                <rect key="frame" x="48" y="487" width="280" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ILV-Ta-OXu"/>
+                                    <constraint firstAttribute="width" constant="280" id="npc-AX-kJ0"/>
+                                    <constraint firstAttribute="height" constant="40" id="qwK-iO-Yuy"/>
+                                    <constraint firstAttribute="width" constant="240" id="x6W-6Y-eSq"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ILV-Ta-OXu"/>
+                                        <exclude reference="x6W-6Y-eSq"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w24-wN-pgT" firstAttribute="centerX" secondItem="n6k-Ut-fuw" secondAttribute="centerX" id="Msg-AR-VJc"/>
+                            <constraint firstItem="S1T-RK-06i" firstAttribute="leading" secondItem="n6k-Ut-fuw" secondAttribute="leadingMargin" id="TBQ-kj-KwZ"/>
+                            <constraint firstItem="oro-gg-Uv8" firstAttribute="top" secondItem="w24-wN-pgT" secondAttribute="bottom" constant="140" id="bqa-Hg-rXX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S1T-RK-06i" secondAttribute="trailing" id="hP3-Tn-ENL"/>
+                            <constraint firstItem="S1T-RK-06i" firstAttribute="bottom" secondItem="iDn-EW-gbn" secondAttribute="bottom" id="jJd-SK-ziH"/>
+                            <constraint firstItem="S1T-RK-06i" firstAttribute="top" secondItem="iDn-EW-gbn" secondAttribute="bottom" id="zC0-1k-ZMl"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Intelligent Greenhouse" id="YoY-E7-LVq"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="googleButton" destination="w24-wN-pgT" id="HbB-Sb-LyV"/>
+                        <segue destination="bED-qn-EJX" kind="push" id="Ghy-3y-gQg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbe-c5-U5j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664.8" y="454.72263868065971"/>
+        </scene>
+        <!--Intelligent Greenhouse-->
+        <scene sceneID="sK5-6c-S4U">
+            <objects>
+                <viewController storyboardIdentifier="PlantTable" id="bED-qn-EJX" customClass="ImageTablePushTransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kfz-dy-xX2"/>
+                        <viewControllerLayoutGuide type="bottom" id="qag-tC-eQJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Olt-zI-LSt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kyv-0o-S01">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="10" minY="0.0" maxX="100" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="bED-qn-EJX" id="tXE-Tb-tKa"/>
+                                    <outlet property="delegate" destination="bED-qn-EJX" id="rS1-ad-LMr"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Intelligent Greenhouse" id="Luh-OA-mFd"/>
+                    <connections>
+                        <outlet property="PlantList" destination="kyv-0o-S01" id="ekj-qx-Opc"/>
+                        <segue destination="E5y-0r-BlC" kind="push" id="h3r-Nz-CBE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8w-q3-EUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2567.1999999999998" y="454.72263868065971"/>
+        </scene>
+        <!--Intelligent Greenhouse-->
+        <scene sceneID="cl5-pa-Tyt">
+            <objects>
+                <viewController storyboardIdentifier="PlantDetial" id="E5y-0r-BlC" customClass="PlantDetial" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SIe-bz-dFU"/>
+                        <viewControllerLayoutGuide type="bottom" id="eKw-1Z-hDv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O9X-Yl-YX8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plant 1" translatesAutoresizingMaskIntoConstraints="NO" id="tgt-Ee-dxo">
+                                <rect key="frame" x="0.0" y="64" width="375" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drop" translatesAutoresizingMaskIntoConstraints="NO" id="x5L-62-w9D">
+                                <rect key="frame" x="36" y="342" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="light" translatesAutoresizingMaskIntoConstraints="NO" id="rud-cG-hWE">
+                                <rect key="frame" x="34" y="425" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="temp" translatesAutoresizingMaskIntoConstraints="NO" id="Qsr-CM-nbR">
+                                <rect key="frame" x="34" y="524" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="21.0067 (22)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrX-i5-F0T">
+                                <rect key="frame" x="203" y="352" width="140" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                                <color key="textColor" red="0.88528364896774292" green="0.27287915349006653" blue="0.36434793472290039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20.2423 (22)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Car-zi-nas">
+                                <rect key="frame" x="202" y="440" width="140" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                                <color key="textColor" red="0.88528364896774292" green="0.27287915349006653" blue="0.36434793472290039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="光度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcm-bK-Nhr">
+                                <rect key="frame" x="100" y="441" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="溫度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVl-eN-BQA">
+                                <rect key="frame" x="100" y="536" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="濕度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6KJ-qj-fkh">
+                                <rect key="frame" x="100" y="352" width="35" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="39,2572 (22)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6in-ZJ-X9W">
+                                <rect key="frame" x="203" y="536" width="140" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                                <color key="textColor" red="0.88528364896774292" green="0.27287915349006653" blue="0.36434793472290039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Intelligent Greenhouse" id="BOh-OP-5gI"/>
+                    <connections>
+                        <outlet property="mainImageView" destination="tgt-Ee-dxo" id="c0t-7L-xkO"/>
+                        <outlet property="wholeview" destination="O9X-Yl-YX8" id="OYV-wa-N0C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Em-UP-Asi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3308" y="454.72263868065971"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Plant 1" width="1134" height="851"/>
+        <image name="banner2" width="2000" height="1345"/>
+        <image name="drop" width="64" height="64"/>
+        <image name="greenhouse" width="622" height="381"/>
+        <image name="light" width="512" height="512"/>
+        <image name="temp" width="512" height="512"/>
+    </resources>
+</document>
